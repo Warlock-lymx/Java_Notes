@@ -11,7 +11,7 @@ public class FileWriter_ {
     }
 
     public void writeFile() {
-        String filePath = "D:\\code\\javaProject\\javaPractice\\src\\learning\\IOStream\\writer\\test.txt";
+        String filePath = "D:\\javaPractice\\src\\learning\\IOStream\\writer\\test.txt";
         FileWriter fileWriter = null;
         char[] chars = {'a','b','c'};
         try {

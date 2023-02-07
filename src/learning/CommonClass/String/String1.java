@@ -6,7 +6,7 @@ public class String1 {
         String s2 = "abc";
         String s3 = new String("abc");
         System.out.println(s1 == s2);//T
-        System.out.println(s1.equals(s2));//T
+        System.out.println(s1.equals(s3));//T
         System.out.println(s1 == s3);//F
         //当调用 intern 方法时，如果池已经包含一个等于此 String对象的字符串，
         //则返回池中的字符串。否则，将此 String 对象添

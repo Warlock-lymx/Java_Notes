@@ -4,6 +4,7 @@ public class DynamicBinding {
     public static void main(String[] args) {
         A a = new B();
         System.out.println(a.i);//10
+        System.out.println(a.get());//20
         System.out.println(a.sum());//30
         System.out.println(a.sum1());//20
     }
@@ -34,6 +35,9 @@ class B extends A{
         return i;
     }
 
+    public int sum() {
+        return get() + 10;
+    }
 //    public int sum1() {
 //        return i + 10;
 //    }

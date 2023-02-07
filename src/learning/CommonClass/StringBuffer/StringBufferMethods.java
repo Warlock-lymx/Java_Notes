@@ -9,7 +9,7 @@ public class StringBufferMethods {
         System.out.println(stringBuffer);
 
         //删
-//        stringBuffer.delete(2,5);
+        stringBuffer.delete(2,5);
         System.out.println(stringBuffer);
 
         //改

@@ -6,10 +6,10 @@ import java.util.Date;
 
 public class Date_ {
     public static void main(String[] args) throws ParseException {
-        java.util.Date d1 = new java.util.Date();//获取当前系统时间
+        Date d1 = new Date();//获取当前系统时间
         System.out.println(d1);
 
-        java.util.Date d2 = new java.util.Date(9234567);//通过指定毫秒数得到时间
+        Date d2 = new Date(9234567);//通过指定毫秒数得到时间
         System.out.println(d2);
 
         //指定相应的日期格式
@@ -19,7 +19,7 @@ public class Date_ {
 
         //把一个格式化的字符串转成对应的date
         String s = "1996年10月18日 10:23:19 星期一";
-        java.util.Date date = sdf.parse(s);
+        Date date = sdf.parse(s);
         System.out.println(sdf.format(date));
     }
 }

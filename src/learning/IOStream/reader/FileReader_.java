@@ -11,7 +11,7 @@ public class FileReader_ {
     }
 
     public void readFile1() {
-        String filePath = "D:\\code\\javaProject\\javaPractice\\src\\learning\\IOStream\\reader\\test.txt";
+        String filePath = "D:\\javaPractice\\src\\learning\\IOStream\\reader\\test.txt";
         FileReader fileReader = null;
         int data = 0;
         try {
@@ -34,7 +34,7 @@ public class FileReader_ {
     }
 
     public void readFile2() {
-        String filePath = "D:\\code\\javaProject\\javaPractice\\src\\learning\\IOStream\\reader\\test.txt";
+        String filePath = "D:\\javaPractice\\src\\learning\\IOStream\\reader\\test.txt";
         FileReader fileReader = null;
         int readLen = 0;
         char[] buf = new char[8];
