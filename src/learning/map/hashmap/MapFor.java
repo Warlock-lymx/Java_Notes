@@ -34,9 +34,9 @@ public class MapFor {
         }
 
         //3.通过EntrySet来获取k-v
-        Set entryset = map.entrySet();
+        Set entrySet = map.entrySet();
         //(1).增强for
-        for(Object entry : entryset) {
+        for(Object entry : entrySet) {
             //及那个entry转成Map.Entryq
             Map.Entry m = (Map.Entry) entry;
             System.out.println(m.getKey() + "-" + m.getValue());
